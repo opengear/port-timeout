@@ -1,0 +1,9 @@
+[Unit]
+Description=Serial Port Timeout
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /etc/scripts/port-timeout
+[Install]
+WantedBy=multi-user.target
