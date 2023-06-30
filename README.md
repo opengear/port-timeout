@@ -1,5 +1,8 @@
 # port-timeout
-Timeout Active User Sessions from Serial Console Ports
+Timeout Active User Sessions from Serial Console Ports. Script detects user activity on Opengear Operations Manager serial ports. If conditions are met,
+the script will logout/exit the console session on the end device. 
+
+NOTE: Currently set up to work for Cisco, Juniper and Opengear end devices.
 
 Stand Alone Script Usage:
 - Use -t to specify timeout timer in seconds
