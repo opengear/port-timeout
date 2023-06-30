@@ -4,7 +4,8 @@ Timeout Active User Sessions from Serial Console Ports
 Stand Alone Script Usage:
 - Use -t to specify timeout timer in seconds
 - Use -w to specify the wait timer in seconds
-Example: python3 portTimeout.py -t 60 -w 60
+   - Example: python3 portTimeout.py -t 60 -w 60
+     
 If no value -t or -w is given, the default value of 30s is used for both
 
 Run script as a service:
