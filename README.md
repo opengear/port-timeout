@@ -14,8 +14,10 @@ Run script as a service:
 3. Run port-timeout-setup.sh
 
    Check the status, start, or stop of the service with systemctl.
-   systemctl start port-timeout
-   systemctl stop port-timeout
-   systemctl status port-timeout
+   
+   - systemctl start port-timeout
+   - systemctl stop port-timeout
+   - systemctl status port-timeout
+   
 
 Script events log to /var/log/messages.
