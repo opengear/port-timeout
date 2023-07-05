@@ -94,8 +94,8 @@ def checkSessions(headers):
                     sdata = (f"port{port}")
                 else:
                     sdata = (f"port{portNum}")
-                    timeoutCheck(headers, sdata, portName)
-                    break
+                timeoutCheck(headers, sdata, portName)
+                break
             else:
                 break
 
